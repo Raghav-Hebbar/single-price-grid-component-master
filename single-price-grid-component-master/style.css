@@ -1,0 +1,109 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: karla;
+    font-size:16px ;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20vh;
+    max-width: 500px;
+    --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.white-card{
+    width: 100%;
+    padding: 30px;
+    background: white;
+}
+
+.white-card h1{
+    color: hsl(179, 62%, 43%) ;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.white-card h3{
+    color: hsl(71, 73%, 54%);
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin-top: 15px;
+}
+
+.white-card p{
+    margin-top: 10px;
+    color: hsl(204, 43%, 93%) ;
+    font-size: 0.8rem;
+}
+
+.container2{
+    display: flex;
+    align-items: stretch;
+}
+
+.subscription{
+    padding:2rem;
+    background: hsl(179, 62%, 43%);
+    text-align: left;
+}
+
+.mo-sub{
+    color: white;
+    font-size: 0.9rem;
+}
+
+.rate{
+    padding-top: 10px;
+    color: white;
+    font-size: 0.8rem;
+}
+
+.rate span{
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.subscription p{
+    padding-top: 3px;
+    font-size: 0.8rem;
+    color: white;
+}
+
+.sign-up{
+    padding-top: 1.7rem;
+}
+button{
+    font-weight: 400;
+    padding: 0.6rem;
+    width: 100%;
+    color: white;
+    border: none;
+    background: hsl(71, 73%, 54%);
+    border-radius: 5px;
+}
+
+.card-lightblue{
+    padding: 2rem;
+    background: rgb(74, 190, 189);
+    text-align: left;
+}
+
+.card-lightblue h3{
+    font-weight: 400;
+    font-size: 1rem;
+    color: white;
+}
+
+ul{
+    padding-top: 15px ;
+    color: white;
+    font-size: small;
+    list-style: none;
+}
